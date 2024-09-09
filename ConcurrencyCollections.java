@@ -46,7 +46,7 @@ public class ConcurrencyCollections {
                 }
             } catch (InterruptedException e) {
                 System.out.println("Thread was interrupted.");
-                // Handle interruption (e.g., cleanup resources)
+                
             }
         });
 
