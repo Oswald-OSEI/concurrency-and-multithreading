@@ -130,8 +130,8 @@ public class ConcurrencyCollections {
 
     // Deadlock Solution
     public static void deadlockSolution() {
-        final Lock lock1 = new ReentrantLock();
-        final Lock lock2 = new ReentrantLock();
+        final ReentrantLock lock1 = new ReentrantLock();
+        final ReentrantLock lock2 = new ReentrantLock();
 
         Thread thread1 = new Thread(() -> {
             try {
